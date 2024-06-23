@@ -1,0 +1,87 @@
+@import url(style.css);
+
+.profil_container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profil_left{
+    width: 34%;
+    height: auto;
+    background-color: var(--light-bg);
+    margin: 1% 0% 1% 1%;
+    box-shadow:var(--box-shodow);
+}
+
+.profil_right{
+    width: 60%;
+    height: auto;
+    background-color: var(--light-bg);
+    margin: 1% 1% 1% 0%;
+    box-shadow:var(--box-shodow);
+}
+
+.profil_baslik{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profil_update{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: var(--main-color);
+    margin-left: 5%;
+}
+.input{
+   width: 95%;
+   border: var(--border);
+   padding: 1.4rem;
+   color: var(--black);
+   font-size: 1.8rem;
+   margin: 10px 0;
+   border-radius: 10px;
+}
+.profil_photo{
+    border: 3px solid black ;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    font-size:large;
+    margin-left: 44%;
+    margin-top: 5px;
+}
+.profil_info{
+   width: 95%;
+   height: 25%;
+   border: var(--border);
+   padding: 1.2rem;
+   color: var(--black);
+   font-size: 1.8rem;
+   margin: 20px 0 0 10px;
+   background-color:#666 ;
+   color:white ;
+   border-radius: 10px;
+   padding-top: -20px;
+}
+.profil_info div{
+    display: inline-block;
+    justify-content: flex-start;
+}
+.info_container{
+    margin-top: -25px;
+}
